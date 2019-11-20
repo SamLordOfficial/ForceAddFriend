@@ -12,7 +12,7 @@ local HttpRbxApiService = game:GetService('HttpRbxApiService')
 local PlayersService = game:GetService('Players')
 
 local StarterGui = game:GetService("StarterGui")
-local PlayerFriendedEvent = Instance.new("BindableEvent")
+local PlayerFriendedEvent = CoreGui.PlayerFriendedEvent
 --Script Variables--
 
 local LocalPlayer = PlayersService.LocalPlayer
